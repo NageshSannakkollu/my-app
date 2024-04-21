@@ -1,0 +1,30 @@
+.product-image {
+width: 140px;
+height: 150px;
+}
+.products-container {
+    padding: 8px;
+    width: 170px;
+    box-shadow: 5px 5px 5px 2px #e7e5e5;
+    border-radius: 6px;
+    margin: 8px 8px;
+}
+.title-favorite-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.description {
+    font-size: 14px;
+}
+.favorite-button {
+    outline: none;
+    cursor: pointer;
+    border: 0;
+    background-color: transparent;
+}
+@media screen and (max-width:767px){
+    .product-name {
+        font-size: 13px;
+    }
+}

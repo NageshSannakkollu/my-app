@@ -1,0 +1,29 @@
+.product-details-container {
+    display: flex;
+    border: 1px solid #000;
+}
+.product-info-container {
+    display: flex;
+    flex-direction: column;
+}
+.product-image {
+    height: 200px;
+    padding: 8px;
+    margin-right: 20px;
+    box-shadow: 2px 2px 16px 8px #e6e3e1;
+    margin-top: 50px;
+}
+.increase-decrease-items-container {
+    display: flex;
+    align-items: center;
+}
+
+.count-button {
+    background-color: #3944dd;
+    padding: 5px 10px;
+}
+.increase-decrease-image  {
+    height: 20px;
+    width: 20px;
+
+}
